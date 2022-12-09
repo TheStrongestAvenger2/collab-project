@@ -1,4 +1,4 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="d_H|M$DVz:x|YkzoUx,`">Player</variable><variable type="KIND_SpriteKind" id="XV]Yh%.gT?I;rqL((o-U">Projectile</variable><variable type="KIND_SpriteKind" id="L0nRx@y0R[cZ;L0QUyfq">Food</variable><variable type="KIND_SpriteKind" id="^.*?YkW$Nu)t|j55edvY">Enemy</variable><variable id="|}p$pmNT)LcI:bgcE3KN">mySprite</variable><variable id="wTZp3d*[RLDP7Iqxj:]x">Monkey</variable><variable id="udW-,g?}p]Bd*4Bn~+}x">banana</variable></variables><block type="pxt-on-start" id="khX6o1asSFR#gZ_Sb9ne" x="-110" y="-50"><statement name="HANDLER"><block type="variables_set" id="/xQ@UKp+2dI:4xiIEQ]G"><field name="VAR" id="wTZp3d*[RLDP7Iqxj:]x">Monkey</field><value name="VALUE"><shadow type="math_number" id="VKtq^lq_HzG66]wz%s|e"><field name="NUM">0</field></shadow><block type="spritescreate" id=")G5p];p5;6-0uhV7pTmI"><value name="img"><shadow type="screen_image_picker" id="TsJw{gh2Xu_]=xSPG*qv"><field name="img">img`
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="d_H|M$DVz:x|YkzoUx,`">Player</variable><variable type="KIND_SpriteKind" id="XV]Yh%.gT?I;rqL((o-U">Projectile</variable><variable type="KIND_SpriteKind" id="L0nRx@y0R[cZ;L0QUyfq">Food</variable><variable type="KIND_SpriteKind" id="^.*?YkW$Nu)t|j55edvY">Enemy</variable><variable id="|}p$pmNT)LcI:bgcE3KN">mySprite</variable><variable id="wTZp3d*[RLDP7Iqxj:]x">Monkey</variable><variable id="udW-,g?}p]Bd*4Bn~+}x">banana</variable></variables><block type="pxt-on-start" id="khX6o1asSFR#gZ_Sb9ne" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="/xQ@UKp+2dI:4xiIEQ]G"><field name="VAR" id="wTZp3d*[RLDP7Iqxj:]x">Monkey</field><value name="VALUE"><shadow type="math_number" id="VKtq^lq_HzG66]wz%s|e"><field name="NUM">0</field></shadow><block type="spritescreate" id=")G5p];p5;6-0uhV7pTmI"><value name="img"><shadow type="screen_image_picker" id="TsJw{gh2Xu_]=xSPG*qv"><field name="img">img`
 . . . . f f f f f . . . . . . . 
 . . . f e e e e e f . . . . . . 
 . . f d d d d e e e f . . . . . 
@@ -16,20 +16,20 @@ c c c c c d d d e e f c . f e f
 . . . f d d c d d b b d f . . . 
 . . . . f f f f f f f f f . . . 
 `</field><data>{"commentRefs":[],"fieldData":{"img":"TsJw{gh2Xu_]=xSPG*qv"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="8|[Xt[d++U@ON!tsr/]h"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="variables_set" id="{JG1Orfm?O(.wO;k*iC7"><field name="VAR" id="udW-,g?}p]Bd*4Bn~+}x">banana</field><value name="VALUE"><shadow type="math_number" id="aQ6~p{gQ@{?o5Rbx?dy-"><field name="NUM">0</field></shadow><block type="spritescreate" id="mA%.Kag|2e!-cu?NJ9vY"><value name="img"><shadow type="screen_image_picker" id="~Oky(dCKh-aw?Xg]-fjz"><field name="img">img`
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . f f f . . . . . . . . . . . 
-. . f . f . . . . . . . . . . . 
-. . f f f . . . . . . . . . . . 
-. . f . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-`</field><data>{"commentRefs":[],"fieldData":{"img":"~Oky(dCKh-aw?Xg]-fjz"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="%~Dcc_c~r1wk/Vc{y77D"><field name="MEMBER">Projectile</field></shadow></value></block></value><next><block type="spritesetpos" id="/pp9ySQ/,?,m^b9tFVh["><value name="sprite"><block type="variables_get" id="5C9^FqEgp^)qGM?G.Of#"><field name="VAR" id="wTZp3d*[RLDP7Iqxj:]x">Monkey</field></block></value><value name="x"><shadow type="positionPicker" id="~9UK;N8lUfjAmUn+]ge."><field name="index">7</field></shadow></value><value name="y"><shadow type="positionPicker" id="%GB`B$giM)eMSiU*{BD]"><field name="index">7</field></shadow></value><next><block type="gamesetbackgroundcolor" id="8ubM0%-J)K#H=xEq@N]O"><value name="color"><shadow type="colorindexpicker" id="w)Dg6xjeS2|T]i4cidqh"><field name="index">7</field></shadow></value></block></next></block></next></block></next></block></statement></block><block type="keyonevent" id="mqwDboz]Gv$CMwI!`T_L" x="430" y="170"><field name="button">controller.A</field><field name="event">ControllerButtonEvent.Pressed</field></block></xml>
+. . . . f f f . . . . . . . . . 
+. . . . f e f . . . . . . . . . 
+. . . . f f f . . . . . . . . . 
+. . . . f 5 5 f . . . . . . . . 
+. . . f 5 5 5 f . . . . . . . . 
+. . f 5 5 5 5 5 f . . . . . . . 
+. . f 5 5 5 5 5 f . . . . . . . 
+. f 5 5 5 5 5 5 5 f . . . . . . 
+. f 5 5 5 5 5 5 5 f . . . . . . 
+. f 5 5 5 5 5 5 5 f . . . . . . 
+. . f 5 5 5 5 5 5 5 f . . . . . 
+. . f 5 5 5 5 5 5 5 5 f . . . . 
+. . . f 5 5 5 5 5 5 5 5 f . . . 
+. . . f 5 5 5 5 5 5 5 5 5 f . . 
+. . . . f f f f 5 5 5 5 5 5 f . 
+. . . . . . . f f f f f f f f . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"~Oky(dCKh-aw?Xg]-fjz"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="%~Dcc_c~r1wk/Vc{y77D"><field name="MEMBER">Projectile</field></shadow></value></block></value><next><block type="spritesetpos" id="/pp9ySQ/,?,m^b9tFVh["><value name="sprite"><block type="variables_get" id="5C9^FqEgp^)qGM?G.Of#"><field name="VAR" id="wTZp3d*[RLDP7Iqxj:]x">Monkey</field></block></value><value name="x"><shadow type="positionPicker" id="~9UK;N8lUfjAmUn+]ge."><field name="index">7</field></shadow></value><value name="y"><shadow type="positionPicker" id="%GB`B$giM)eMSiU*{BD]"><field name="index">7</field></shadow></value><next><block type="gamesetbackgroundcolor" id="8ubM0%-J)K#H=xEq@N]O"><value name="color"><shadow type="colorindexpicker" id="w)Dg6xjeS2|T]i4cidqh"><field name="index">7</field></shadow></value></block></next></block></next></block></next></block></statement></block><block type="keyonevent" id="mqwDboz]Gv$CMwI!`T_L" x="540" y="220"><field name="button">controller.A</field><field name="event">ControllerButtonEvent.Pressed</field></block></xml>
