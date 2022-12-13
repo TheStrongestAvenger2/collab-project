@@ -17,6 +17,7 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
         . . . . f f f f 5 5 5 5 5 5 f . 
         . . . . . . . f f f f f f f f . 
         `, Monkey, -50, 50)
+    pause(1000)
 })
 info.onLifeZero(function () {
     game.over(true)
@@ -67,5 +68,5 @@ Dinosaur.setVelocity(randint(35, 80), randint(30, 80))
 Monkey.setPosition(141, 11)
 Dinosaur.setBounceOnWall(true)
 scene.setBackgroundColor(7)
-info.startCountdown(8)
+info.startCountdown(10)
 info.setLife(3)
