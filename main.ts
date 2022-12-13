@@ -63,9 +63,9 @@ let Dinosaur = sprites.create(img`
     . . c c c c c b 5 5 b c c c . . 
     . . c b b b c d 5 5 b c . . . . 
     `, SpriteKind.Enemy)
-Dinosaur.setVelocity(66, 69)
+Dinosaur.setVelocity(randint(35, 80), randint(30, 80))
 Monkey.setPosition(141, 11)
 Dinosaur.setBounceOnWall(true)
 scene.setBackgroundColor(7)
-info.startCountdown(10)
+info.startCountdown(8)
 info.setLife(3)
